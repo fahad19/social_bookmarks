@@ -32,6 +32,7 @@ class SocialBookmarksHookHelper extends AppHelper {
         'delicious',
         'digg',
         'facebook',
+        'friendfeed',
         'google',
         'linkedin',
         'reddit',
@@ -73,6 +74,11 @@ class SocialBookmarksHookHelper extends AppHelper {
             'name' => 'Facebook',
             'link' => 'http://www.facebook.com/sharer.php?u={url}&t={title}',
             'icon' => 'facebook_32.png',
+        ),
+        'friendfeed' => array(
+            'name' => 'Friendfeed',
+            'link' => 'http://friendfeed.com/share?url={url}&title={title}',
+            'icon' => 'friendfeed_32.png',
         ),
         'google' => array(
             'name' => 'Google Bookmarks',
