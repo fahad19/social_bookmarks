@@ -1,0 +1,13 @@
+# Social Bookmarks
+
+A plugin for Croogo CMS for showing graphical social bookmark links.
+
+Requires [Croogo 1.3](http://github.com/croogo/croogo/downloads) or above.
+
+## How to use
+
+* Log in to admin panel
+* Go to Extensions > Plugins page
+* Upload the zip file ([available here](http://github.com/fahad19/social_bookmarks/downloads))
+* Go to Extensions > Hooks page
+* Click on tick/cross icon of 'SocialBookmarksHook' for activating or deactivating the plugin
