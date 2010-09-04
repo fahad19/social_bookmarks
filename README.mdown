@@ -2,7 +2,7 @@
 
 A plugin for Croogo CMS for showing graphical social bookmark links.
 
-Requires [Croogo 1.3](http://github.com/croogo/croogo/downloads) or above.
+Requires [Croogo 1.3.2](http://github.com/croogo/croogo/downloads) or above.
 
 ## How to use
 

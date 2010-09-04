@@ -1,6 +1,6 @@
 <?php
 /**
- * SocialBookmarksHook Helper
+ * SocialBookmarks Helper
  *
  * Shows graphical bookmark links of popular social networks.
  *
@@ -11,7 +11,7 @@
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://www.croogo.org
  */
-class SocialBookmarksHookHelper extends AppHelper {
+class SocialBookmarksHelper extends AppHelper {
 /**
  * Other helpers used by this helper
  *
