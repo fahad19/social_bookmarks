@@ -9,5 +9,4 @@ Requires [Croogo 1.3.2](http://github.com/croogo/croogo/downloads) or above.
 * Log in to admin panel
 * Go to Extensions > Plugins page
 * Upload the zip file ([available here](http://github.com/fahad19/social_bookmarks/downloads))
-* Go to Extensions > Hooks page
-* Click on tick/cross icon of 'SocialBookmarksHook' for activating or deactivating the plugin
+* Click on tick/cross icon of 'Social Bookmarks' for activating or deactivating the plugin
