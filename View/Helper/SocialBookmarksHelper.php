@@ -128,11 +128,12 @@ class SocialBookmarksHelper extends AppHelper {
         if ($this->params['controller'] == 'nodes' &&
             $this->params['action'] == 'view' &&
             in_array($this->Layout->node('type'), $this->types)) {
-            $output .= $this->Layout->View->element('social_bookmarks', array(
-                'plugin' => 'social_bookmarks',
+            $output .= $this->_View->element('social_bookmarks', array(
                 'bookmarks' => $this->bookmarks,
                 'defaults' => $this->defaults,
-            ));
+            ), array(
+                'plugin' => 'SocialBookmarks',
+	    ));
         }
 
         return $output;
